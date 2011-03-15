@@ -91,7 +91,3 @@ function MenuCard(){
 		items.push(item);
 	}
 }
-
-var file = new MenuItem('Hello', null);
-var newitem = new MenuItem('New...', file);
-document.write(file.children[0].text);
